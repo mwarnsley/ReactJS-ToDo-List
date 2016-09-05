@@ -1,0 +1,24 @@
+{
+  "name": "reactjs-todo-list",
+  "version": "1.0.0",
+  "description": "Simple ToDo List built in ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwarnsley/ReactJS-ToDo-List.git"
+  },
+  "author": "Marcus Warnsley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwarnsley/ReactJS-ToDo-List/issues"
+  },
+  "homepage": "https://github.com/mwarnsley/ReactJS-ToDo-List#readme",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5"
+  }
+}
