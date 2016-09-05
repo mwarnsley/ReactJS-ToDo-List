@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class AddButton extends Component{
+class Todo extends Component{
 	render(){
 		return(
 			<div>
-				<button className="add_button">Add Item</button>
+				TEST
 			</div>
 		);
 	}
 }
 
-export default AddButton;
+export default Todo;

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import InputField from './components/InputField';
+import ToDoApp from './components/ToDoApp';
 
 var ToDo = React.createClass({
 	render: function(){
 		return(
 			<div>
-				<InputField />
+				<ToDoApp />
 			</div>
 		);
 	}
