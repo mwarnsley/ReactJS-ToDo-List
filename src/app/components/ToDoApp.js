@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import ToDoList from './ToDoList';
+import TodoInput from './TodoInput';
 
 class ToDoApp extends Component{
 	constructor(props) {
@@ -27,6 +28,7 @@ class ToDoApp extends Component{
 		var {todos} = this.state;
 		return(
 			<div>
+				<TodoInput />
 				<ToDoList todos={todos} />
 			</div>
 		);
