@@ -9,7 +9,7 @@ class ToDoList extends Component{
 		var renderTodos = () => {
 			return todos.map((todo) => {
 					return(
-						<Todo key={todo.id} />
+						<Todo key={todo.id} {...todo} />
 					); 
 				});
 		}

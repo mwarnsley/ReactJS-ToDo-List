@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 
 class Todo extends Component{
 	render(){
+		var {id, text} = this.props;
 		return(
 			<div>
-				TEST
+				{id}. {text}
 			</div>
 		);
 	}
